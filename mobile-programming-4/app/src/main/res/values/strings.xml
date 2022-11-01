@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Praktikum4-Intent</string>
+    <string name="header_page1">Ini Halaman 1</string>
+    <string name="text_btn_to_page2">Ke Halaman 2</string>
+    <string name="header_page2">Ini Halaman 2</string>
+    <string name="text_btn_to_page1">Ke Halaman 1</string>
+    <string name="text_btn_to_page3">Ke Halaman 3</string>
+    <string name="header_page3">Anda akan dikembalikan ke halaman 1 dalam 2 detik</string>
+    <string name="header_page_3">Ini Halaman 3</string>
+</resources>
