@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleApp</string>
+    <string name="buttonSubmit">Submit</string>
+</resources>
