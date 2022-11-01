@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktikum 5 Diki Hamdani</string>
+    <string name="textJudul">Mengenal Jenis Binatang</string>
+    <string name="imageDeskripsi">Gambar</string>
+    <string name="textDeskripsi">Nama Binatang</string>
+    <string name="textButton">Tes Suara</string>
+</resources>
