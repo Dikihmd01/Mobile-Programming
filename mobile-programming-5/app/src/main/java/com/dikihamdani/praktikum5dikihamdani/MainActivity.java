@@ -2,7 +2,9 @@ package com.dikihamdani.praktikum5dikihamdani;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -31,5 +33,11 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listView);
         BinatangAdapter adapter = new BinatangAdapter(this, R.layout.item_row_list, allData);
         listView.setAdapter(adapter);
+    }
+
+    public void pindahKeGrid(View v) {
+        Intent route = new Intent(MainActivity.this, GridViewActivity.class);
+        startActivity(route);
+        finish();
     }
 }

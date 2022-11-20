@@ -16,12 +16,22 @@
         android:gravity="center"
         android:textSize="18sp"
         android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnPindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:onClick="pindahKeGrid"
+        android:text="@string/textPindah"/>
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/judul"
+        android:layout_below="@id/btnPindah"
         android:orientation="vertical"/>
 
 </RelativeLayout>
